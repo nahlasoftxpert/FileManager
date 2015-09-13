@@ -1,0 +1,5 @@
+1-www-data ALL=(ALL) NOPASSWD: ALL
+put this line in the /etc/sudoers to allow the application to use sudo command 
+2-Change username and password in the file appvars.php (there are the root data in the ubuntu system) 
+	$userName = "root";
+	$password = "123456";
